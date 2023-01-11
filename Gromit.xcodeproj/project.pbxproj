@@ -22,6 +22,7 @@
 		D52A9A46296EC6450054E0AA /* ChallengeList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A45296EC6450054E0AA /* ChallengeList.storyboard */; };
 		D52A9A48296EC6550054E0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A47296EC6550054E0AA /* Main.storyboard */; };
 		D52A9A4B296EC7130054E0AA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A9A4A296EC7130054E0AA /* MainViewController.swift */; };
+		D52A9A4E296ECE5E0054E0AA /* JoinedChallengeDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A4D296ECE5E0054E0AA /* JoinedChallengeDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		D52A9A45296EC6450054E0AA /* ChallengeList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChallengeList.storyboard; sourceTree = "<group>"; };
 		D52A9A47296EC6550054E0AA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D52A9A4A296EC7130054E0AA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D52A9A4D296ECE5E0054E0AA /* JoinedChallengeDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JoinedChallengeDetail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,29 +86,29 @@
 			path = Gromit;
 			sourceTree = "<group>";
 		};
-		D52A9A2B296EC0120054E0AA /* #02 Main */ = {
+		D52A9A2B296EC0120054E0AA /* #2 Main */ = {
 			isa = PBXGroup;
 			children = (
 				D52A9A47296EC6550054E0AA /* Main.storyboard */,
 				D52A9A4A296EC7130054E0AA /* MainViewController.swift */,
 			);
-			path = "#02 Main";
+			path = "#2 Main";
 			sourceTree = "<group>";
 		};
-		D52A9A2C296EC04B0054E0AA /* ChallengeList */ = {
+		D52A9A2C296EC04B0054E0AA /* #5 ChallengeList */ = {
 			isa = PBXGroup;
 			children = (
 				D52A9A45296EC6450054E0AA /* ChallengeList.storyboard */,
 			);
-			path = ChallengeList;
+			path = "#5 ChallengeList";
 			sourceTree = "<group>";
 		};
-		D52A9A2D296EC08B0054E0AA /* JoinedChallengeList */ = {
+		D52A9A2D296EC08B0054E0AA /* #6 JoinedChallengeList */ = {
 			isa = PBXGroup;
 			children = (
 				D52A9A43296EC63D0054E0AA /* JoinedChallengeList.storyboard */,
 			);
-			path = JoinedChallengeList;
+			path = "#6 JoinedChallengeList";
 			sourceTree = "<group>";
 		};
 		D52A9A2E296EC2950054E0AA /* #0 SignIn */ = {
@@ -125,61 +127,70 @@
 			path = "#1 FindUserById";
 			sourceTree = "<group>";
 		};
-		D52A9A30296EC3C80054E0AA /* #03 FinalLevel */ = {
+		D52A9A30296EC3C80054E0AA /* #3 FinalLevel */ = {
 			isa = PBXGroup;
 			children = (
 				D52A9A3D296EC6260054E0AA /* FinalLevel.storyboard */,
 			);
-			path = "#03 FinalLevel";
+			path = "#3 FinalLevel";
 			sourceTree = "<group>";
 		};
-		D52A9A31296EC4160054E0AA /* Collection */ = {
+		D52A9A31296EC4160054E0AA /* #4 Collection */ = {
 			isa = PBXGroup;
 			children = (
 				D52A9A3B296EC61E0054E0AA /* Collection.storyboard */,
 			);
-			path = Collection;
+			path = "#4 Collection";
 			sourceTree = "<group>";
 		};
-		D52A9A32296EC4310054E0AA /* CreateChallenge */ = {
+		D52A9A32296EC4310054E0AA /* #7 CreateChallenge */ = {
 			isa = PBXGroup;
 			children = (
 				D52A9A39296EC6130054E0AA /* CreateChallenge.storyboard */,
 			);
-			path = CreateChallenge;
+			path = "#7 CreateChallenge";
 			sourceTree = "<group>";
 		};
-		D52A9A33296EC4560054E0AA /* ChallengeDetail */ = {
+		D52A9A33296EC4560054E0AA /* #8 ChallengeDetail */ = {
 			isa = PBXGroup;
 			children = (
 				D52A9A37296EC60A0054E0AA /* ChallengeDetail.storyboard */,
 			);
-			path = ChallengeDetail;
+			path = "#8 ChallengeDetail";
 			sourceTree = "<group>";
 		};
-		D52A9A34296EC59B0054E0AA /* Settings */ = {
+		D52A9A34296EC59B0054E0AA /* #10 Settings */ = {
 			isa = PBXGroup;
 			children = (
 				D52A9A35296EC5F30054E0AA /* Settings.storyboard */,
 			);
-			path = Settings;
+			path = "#10 Settings";
 			sourceTree = "<group>";
 		};
 		D52A9A49296EC6BB0054E0AA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D52A9A2F296EC2BC0054E0AA /* #1 FindUserById */,
 				D52A9A2E296EC2950054E0AA /* #0 SignIn */,
-				D52A9A2D296EC08B0054E0AA /* JoinedChallengeList */,
-				D52A9A2C296EC04B0054E0AA /* ChallengeList */,
-				D52A9A2B296EC0120054E0AA /* #02 Main */,
-				D52A9A30296EC3C80054E0AA /* #03 FinalLevel */,
-				D52A9A31296EC4160054E0AA /* Collection */,
-				D52A9A32296EC4310054E0AA /* CreateChallenge */,
-				D52A9A33296EC4560054E0AA /* ChallengeDetail */,
-				D52A9A34296EC59B0054E0AA /* Settings */,
+				D52A9A2F296EC2BC0054E0AA /* #1 FindUserById */,
+				D52A9A2B296EC0120054E0AA /* #2 Main */,
+				D52A9A30296EC3C80054E0AA /* #3 FinalLevel */,
+				D52A9A31296EC4160054E0AA /* #4 Collection */,
+				D52A9A2C296EC04B0054E0AA /* #5 ChallengeList */,
+				D52A9A2D296EC08B0054E0AA /* #6 JoinedChallengeList */,
+				D52A9A32296EC4310054E0AA /* #7 CreateChallenge */,
+				D52A9A33296EC4560054E0AA /* #8 ChallengeDetail */,
+				D52A9A4C296ECE3F0054E0AA /* #9 JoinedChallengeDetail */,
+				D52A9A34296EC59B0054E0AA /* #10 Settings */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D52A9A4C296ECE3F0054E0AA /* #9 JoinedChallengeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A4D296ECE5E0054E0AA /* JoinedChallengeDetail.storyboard */,
+			);
+			path = "#9 JoinedChallengeDetail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D52A9A38296EC60A0054E0AA /* ChallengeDetail.storyboard in Resources */,
+				D52A9A4E296ECE5E0054E0AA /* JoinedChallengeDetail.storyboard in Resources */,
 				D52A9A24296EBF0E0054E0AA /* LaunchScreen.storyboard in Resources */,
 				D52A9A48296EC6550054E0AA /* Main.storyboard in Resources */,
 				D52A9A21296EBF0E0054E0AA /* Assets.xcassets in Resources */,
