@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		D52A9A18296EBF0D0054E0AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A9A17296EBF0D0054E0AA /* AppDelegate.swift */; };
 		D52A9A1A296EBF0D0054E0AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A9A19296EBF0D0054E0AA /* SceneDelegate.swift */; };
-		D52A9A1C296EBF0D0054E0AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A9A1B296EBF0D0054E0AA /* ViewController.swift */; };
-		D52A9A1F296EBF0D0054E0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A1D296EBF0D0054E0AA /* Main.storyboard */; };
 		D52A9A21296EBF0E0054E0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A20296EBF0E0054E0AA /* Assets.xcassets */; };
 		D52A9A24296EBF0E0054E0AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A22296EBF0E0054E0AA /* LaunchScreen.storyboard */; };
+		D52A9A36296EC5F30054E0AA /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A35296EC5F30054E0AA /* Settings.storyboard */; };
+		D52A9A38296EC60A0054E0AA /* ChallengeDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A37296EC60A0054E0AA /* ChallengeDetail.storyboard */; };
+		D52A9A3A296EC6130054E0AA /* CreateChallenge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A39296EC6130054E0AA /* CreateChallenge.storyboard */; };
+		D52A9A3C296EC61E0054E0AA /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A3B296EC61E0054E0AA /* Collection.storyboard */; };
+		D52A9A3E296EC6260054E0AA /* FinalLevel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A3D296EC6260054E0AA /* FinalLevel.storyboard */; };
+		D52A9A40296EC62D0054E0AA /* FindUserById.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A3F296EC62D0054E0AA /* FindUserById.storyboard */; };
+		D52A9A42296EC6330054E0AA /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A41296EC6330054E0AA /* SignIn.storyboard */; };
+		D52A9A44296EC63D0054E0AA /* JoinedChallengeList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A43296EC63D0054E0AA /* JoinedChallengeList.storyboard */; };
+		D52A9A46296EC6450054E0AA /* ChallengeList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A45296EC6450054E0AA /* ChallengeList.storyboard */; };
+		D52A9A48296EC6550054E0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52A9A47296EC6550054E0AA /* Main.storyboard */; };
+		D52A9A4B296EC7130054E0AA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A9A4A296EC7130054E0AA /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D52A9A14296EBF0D0054E0AA /* Gromit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gromit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52A9A17296EBF0D0054E0AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D52A9A19296EBF0D0054E0AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D52A9A1B296EBF0D0054E0AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D52A9A1E296EBF0D0054E0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D52A9A20296EBF0E0054E0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D52A9A23296EBF0E0054E0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D52A9A25296EBF0E0054E0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52A9A35296EC5F30054E0AA /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		D52A9A37296EC60A0054E0AA /* ChallengeDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChallengeDetail.storyboard; sourceTree = "<group>"; };
+		D52A9A39296EC6130054E0AA /* CreateChallenge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateChallenge.storyboard; sourceTree = "<group>"; };
+		D52A9A3B296EC61E0054E0AA /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		D52A9A3D296EC6260054E0AA /* FinalLevel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinalLevel.storyboard; sourceTree = "<group>"; };
+		D52A9A3F296EC62D0054E0AA /* FindUserById.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FindUserById.storyboard; sourceTree = "<group>"; };
+		D52A9A41296EC6330054E0AA /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		D52A9A43296EC63D0054E0AA /* JoinedChallengeList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JoinedChallengeList.storyboard; sourceTree = "<group>"; };
+		D52A9A45296EC6450054E0AA /* ChallengeList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChallengeList.storyboard; sourceTree = "<group>"; };
+		D52A9A47296EC6550054E0AA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D52A9A4A296EC7130054E0AA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,112 @@
 		D52A9A16296EBF0D0054E0AA /* Gromit */ = {
 			isa = PBXGroup;
 			children = (
+				D52A9A49296EC6BB0054E0AA /* View */,
 				D52A9A17296EBF0D0054E0AA /* AppDelegate.swift */,
 				D52A9A19296EBF0D0054E0AA /* SceneDelegate.swift */,
-				D52A9A1B296EBF0D0054E0AA /* ViewController.swift */,
-				D52A9A1D296EBF0D0054E0AA /* Main.storyboard */,
 				D52A9A20296EBF0E0054E0AA /* Assets.xcassets */,
 				D52A9A22296EBF0E0054E0AA /* LaunchScreen.storyboard */,
 				D52A9A25296EBF0E0054E0AA /* Info.plist */,
 			);
 			path = Gromit;
+			sourceTree = "<group>";
+		};
+		D52A9A2B296EC0120054E0AA /* #02 Main */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A47296EC6550054E0AA /* Main.storyboard */,
+				D52A9A4A296EC7130054E0AA /* MainViewController.swift */,
+			);
+			path = "#02 Main";
+			sourceTree = "<group>";
+		};
+		D52A9A2C296EC04B0054E0AA /* ChallengeList */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A45296EC6450054E0AA /* ChallengeList.storyboard */,
+			);
+			path = ChallengeList;
+			sourceTree = "<group>";
+		};
+		D52A9A2D296EC08B0054E0AA /* JoinedChallengeList */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A43296EC63D0054E0AA /* JoinedChallengeList.storyboard */,
+			);
+			path = JoinedChallengeList;
+			sourceTree = "<group>";
+		};
+		D52A9A2E296EC2950054E0AA /* #0 SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A41296EC6330054E0AA /* SignIn.storyboard */,
+			);
+			path = "#0 SignIn";
+			sourceTree = "<group>";
+		};
+		D52A9A2F296EC2BC0054E0AA /* #1 FindUserById */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A3F296EC62D0054E0AA /* FindUserById.storyboard */,
+			);
+			path = "#1 FindUserById";
+			sourceTree = "<group>";
+		};
+		D52A9A30296EC3C80054E0AA /* #03 FinalLevel */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A3D296EC6260054E0AA /* FinalLevel.storyboard */,
+			);
+			path = "#03 FinalLevel";
+			sourceTree = "<group>";
+		};
+		D52A9A31296EC4160054E0AA /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A3B296EC61E0054E0AA /* Collection.storyboard */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		D52A9A32296EC4310054E0AA /* CreateChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A39296EC6130054E0AA /* CreateChallenge.storyboard */,
+			);
+			path = CreateChallenge;
+			sourceTree = "<group>";
+		};
+		D52A9A33296EC4560054E0AA /* ChallengeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A37296EC60A0054E0AA /* ChallengeDetail.storyboard */,
+			);
+			path = ChallengeDetail;
+			sourceTree = "<group>";
+		};
+		D52A9A34296EC59B0054E0AA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A35296EC5F30054E0AA /* Settings.storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D52A9A49296EC6BB0054E0AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D52A9A2F296EC2BC0054E0AA /* #1 FindUserById */,
+				D52A9A2E296EC2950054E0AA /* #0 SignIn */,
+				D52A9A2D296EC08B0054E0AA /* JoinedChallengeList */,
+				D52A9A2C296EC04B0054E0AA /* ChallengeList */,
+				D52A9A2B296EC0120054E0AA /* #02 Main */,
+				D52A9A30296EC3C80054E0AA /* #03 FinalLevel */,
+				D52A9A31296EC4160054E0AA /* Collection */,
+				D52A9A32296EC4310054E0AA /* CreateChallenge */,
+				D52A9A33296EC4560054E0AA /* ChallengeDetail */,
+				D52A9A34296EC59B0054E0AA /* Settings */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +240,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52A9A38296EC60A0054E0AA /* ChallengeDetail.storyboard in Resources */,
 				D52A9A24296EBF0E0054E0AA /* LaunchScreen.storyboard in Resources */,
+				D52A9A48296EC6550054E0AA /* Main.storyboard in Resources */,
 				D52A9A21296EBF0E0054E0AA /* Assets.xcassets in Resources */,
-				D52A9A1F296EBF0D0054E0AA /* Main.storyboard in Resources */,
+				D52A9A3C296EC61E0054E0AA /* Collection.storyboard in Resources */,
+				D52A9A44296EC63D0054E0AA /* JoinedChallengeList.storyboard in Resources */,
+				D52A9A46296EC6450054E0AA /* ChallengeList.storyboard in Resources */,
+				D52A9A40296EC62D0054E0AA /* FindUserById.storyboard in Resources */,
+				D52A9A42296EC6330054E0AA /* SignIn.storyboard in Resources */,
+				D52A9A3A296EC6130054E0AA /* CreateChallenge.storyboard in Resources */,
+				D52A9A3E296EC6260054E0AA /* FinalLevel.storyboard in Resources */,
+				D52A9A36296EC5F30054E0AA /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52A9A1C296EBF0D0054E0AA /* ViewController.swift in Sources */,
 				D52A9A18296EBF0D0054E0AA /* AppDelegate.swift in Sources */,
 				D52A9A1A296EBF0D0054E0AA /* SceneDelegate.swift in Sources */,
+				D52A9A4B296EC7130054E0AA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D52A9A1D296EBF0D0054E0AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D52A9A1E296EBF0D0054E0AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D52A9A22296EBF0E0054E0AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
