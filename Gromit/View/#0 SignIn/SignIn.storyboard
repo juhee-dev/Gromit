@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17150" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,14 +13,44 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZLl-BV-aNo">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2od-cb-epM">
+                                        <rect key="frame" x="115" y="539" width="160" height="35"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Sign in with Apple">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" red="0.75686274509803919" green="0.87058823529411766" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.96862745098039216" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="2od-cb-epM" secondAttribute="trailing" constant="158" id="bRp-gA-jQ0"/>
+                                    <constraint firstItem="2od-cb-epM" firstAttribute="leading" relation="lessThanOrEqual" secondItem="ZLl-BV-aNo" secondAttribute="leading" constant="158" id="j9s-nG-9Zn"/>
+                                    <constraint firstItem="2od-cb-epM" firstAttribute="centerX" secondItem="ZLl-BV-aNo" secondAttribute="centerX" id="pH9-b7-G4S"/>
+                                    <constraint firstAttribute="bottom" secondItem="2od-cb-epM" secondAttribute="bottom" constant="270" id="qRi-1f-uEx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ZLl-BV-aNo" secondAttribute="bottom" id="0n9-bt-gLa"/>
+                            <constraint firstItem="ZLl-BV-aNo" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="DZF-3G-Hft"/>
+                            <constraint firstItem="ZLl-BV-aNo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ROj-Nx-676"/>
+                            <constraint firstItem="ZLl-BV-aNo" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="cBO-uk-f6e"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="113.84615384615384" y="-28.436018957345969"/>
         </scene>
     </scenes>
     <resources>
