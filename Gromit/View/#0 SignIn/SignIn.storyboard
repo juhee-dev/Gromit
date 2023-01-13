@@ -20,9 +20,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2od-cb-epM">
-                                        <rect key="frame" x="115" y="539" width="160" height="35"/>
+                                        <rect key="frame" x="112.66666666666667" y="539" width="164.66666666666663" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Sign in with Apple">
+                                        <buttonConfiguration key="configuration" style="filled" title="Sign in with Apple!">
                                             <backgroundConfiguration key="background">
                                                 <color key="backgroundColor" red="0.75686274509803919" green="0.87058823529411766" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </backgroundConfiguration>
